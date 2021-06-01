@@ -1,0 +1,121 @@
+/* Elements */
+body {
+    background-color: rgb(250, 245, 236);
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #333
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(245, 209, 90);
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+footer {
+    color: rgb(29, 26, 26);
+    background-color: rgb(245, 209, 90);
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color:rgb(29, 26, 26);
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    margin: .5rem 0px;
+    font-weight: 600px;
+}
+
+img {
+    width: 1500px;
+    margin: 10px 0px;
+}
+
+hr {
+    height: .4rem;
+    background-color: rgb(34, 33, 31);
+    border: none;
+    margin: 20px 0px 0px;
+}
+
+a {
+    color:rgb(53, 48, 48);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(112, 99, 99) !important;
+}
+
+a:visited {
+    color:rgb(5, 5, 5);
+}
+
+figcaption {
+    font-size: 10.5px;
+    margin-top: .5px;
+}
+
+/* Ids */
+
+#page-title {
+    color: rgb(53, 47, 47);
+    text-align: center;
+}
+
+#poem {
+    color: rgb(53, 47, 47);
+    text-align: left;
+    margin: 5px 5px;
+    margin-bottom: 30px;
+}
+
+#soil {
+    background-color: rgb(107, 74, 74);
+    color: rgb(221, 221, 221);
+    width: auto
+    margin: 0px;
+    padding: 20px;
+}
+
+/* Classes */
+
+.center {
+    float: center;
+    margin-right: 5px;
+}
+
